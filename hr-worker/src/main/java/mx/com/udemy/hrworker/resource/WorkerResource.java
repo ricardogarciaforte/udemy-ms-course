@@ -14,7 +14,7 @@ import mx.com.udemy.hrworker.repository.WorkerRepository;
 
 @RestController
 @RequestMapping(value = "/workers")
-public class WorderResource {
+public class WorkerResource {
 
 	@Autowired
 	private WorkerRepository repository;
